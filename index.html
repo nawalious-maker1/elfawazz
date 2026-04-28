@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ELFAWADZ WEBSITE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">ELFAWADZ WEBSITE</h1>
+
+<div class="container">
+  <div class="card">
+    <h2>Web Development</h2>
+    <p>Membangun website modern</p>
+  </div>
+
+  <div class="card">
+    <h2>Digital Marketing</h2>
+    <p>Strategi pemasaran digital</p>
+  </div>
+
+  <div class="card">
+    <h2>Teknologi</h2>
+    <p>Eksplorasi teknologi masa depan</p>
+  </div>
+
+  <div class="card">
+    <h2>Project Saya</h2>
+    <p>Kumpulan project</p>
+  </div>
+</div>
+
+</body>
+  </html>
+  body {
+  background: #0a0a0a;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  color: cyan;
+  text-shadow: 0 0 10px cyan;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #0ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px magenta;
+}
